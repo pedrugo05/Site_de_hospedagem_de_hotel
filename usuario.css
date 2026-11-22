@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/floresta-amazonica.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#page-wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor branca semi-transparente */
+    width: 60%; /* Defina a largura desejada */
+    max-width: 600px; /* Defina a largura máxima desejada */
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona algum espaço interno para o conteúdo */
+    border-radius: 15px; /* Borda circular */
+}
+
+#main-wrapper {
+    text-align: center;
+}
+
+#content {
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Borda circular para o botão */
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Adicione esses estilos ao seu arquivo Usuario.css */
+#footer-wrapper {
+    text-align: center;
+}
+
+#footer{
+    color: black;
+    background-color: lightseagreen; /* Cor de fundo azul claro */
+    text-align: center;
+    width: 100%; /* Largura total */
+    position: absolute;
+    bottom: 0; /* Ficar no rodapé da página */
+    left: 0; /* Alinhar à esquerda */
+    right: 0; /* Alinhar à direita */
+    margin: 0; /* Remover margens */
+    padding: 0; /* Remover preenchimento */
+}
+
+#footer .widget.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#footer .widget.contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer .widget.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .widget.contact li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer .widget.contact a {
+    color: #10a0d5;
+    text-decoration: none;
+}
+
+#footer .widget.contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+

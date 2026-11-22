@@ -1,0 +1,150 @@
+
+/* Estilos específicos da página de estadia */
+
+body {
+    transition: background-color 0.5s ease;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/rio.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logotc {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid greenyellow;
+    padding: 5px;
+    background-color: green;
+    margin-bottom: 30px; /* Adicionei uma margem inferior para separar do formulário */
+    margin-top: 100px; /* Ajuste a margem superior conforme necessário */
+}
+#content {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor branca semi-transparente */
+    width: 60%; /* Defina a largura desejada */
+    max-width: 600px; /* Defina a largura máxima desejada */
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona algum espaço interno para o conteúdo */
+    border-radius: 15px; /* Borda circular */
+}
+
+#reservation-form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+#footer-wrapper {
+    position: center;
+    
+}
+
+#footer {
+    color: black;
+    background-color: lightseagreen; /* Cor de fundo azul claro */
+    text-align: center;
+    width: 100%; /* Largura total */
+    position: absolute;
+    bottom: -60%; /* Afastar 30% para cima */; /* Ficar no rodapé da página */
+    left: 0; /* Alinhar à esquerda */
+    right: 0; /* Alinhar à direita */
+    margin: 0; /* Remover margens */
+    padding: 0; /* Remover preenchimento */
+}
+
+
+#footer .widget.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#footer .widget.contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer .widget.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .widget.contact li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer .widget.contact a {
+    color: #10a0d5;
+    text-decoration: none;
+}
+
+#footer .widget.contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.button{
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    outline: none;
+}
+
+/*  pagamento pix */
+
+#pix-qr-code {
+    display: none;
+}

@@ -1,0 +1,157 @@
+
+body {
+    background-image: url('images/floresta-amazonica.jpg'); /*  imagem de fundo */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white; /* Cor do texto */
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.logotc{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid greenyellow; /* borda verde */
+    padding: 5px;
+    background-color: green; 
+}
+
+#login-wrapper {
+    text-align: center;
+}
+
+#login {
+    background-color: white;
+    width: 120%;
+    margin: 20% 15% 105% -18%; /* valores para centralizar horizontalmente e afastar do rodapé */
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+#login h2 {
+    text-align: center;
+    color: #333; /* Cor do título */
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 10px 0 10px -10px;
+    box-sizing: border-box; /* largura do padding e da borda no cálculo da largura */
+    
+}
+.button ul {
+    list-style: none;
+    padding: 0;
+}
+
+.button li {
+    list-style: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#footer-wrapper {
+    text-align: center;
+}
+
+#footer {
+    color: white;
+    background-color: lightseagreen; /* Cor de fundo azul claro */
+    text-align: center;
+    width: 100%; /* Largura total */
+    position: absolute;
+    bottom: -25%; /* Afastar 30% para cima */
+    left: 0; /* Alinhar à esquerda */
+    right: 0; /* Alinhar à direita */
+    margin: 0; /* Remover margens */
+    padding: 0; /* Remover preenchimento */
+}
+
+
+
+#footer::before {
+    content: "";
+    display: block;
+    border-top: 1px solid #007bff; /* linha separadora */
+    margin: 20px auto; /* Espaçamento acima da linha */
+    width: 50%; /* Largura da linha */
+}
+
+#footer .widget.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#footer .widget.contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer .widget.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .widget.contact li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer .widget.contact a {
+    color: #10a0d5;
+    text-decoration: none;
+}
+
+#footer .widget.contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
